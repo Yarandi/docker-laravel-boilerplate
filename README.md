@@ -12,7 +12,11 @@ OR if you have already installed composer on your local system
 `composer create-project --prefer-dist laravel/laravel laravel-app`
 
 
-Then pulling thisrepository codes in the same directory that installed laravel in previous ,Then the thing we need to do is run the build command to generate the image data:
+Then pulling this repository codes in the same directory that installed laravel in previous ,
+
+Edit `docker-compose.yaml` and set your `database name`, database `user name` amd `passwords`
+
+Then the thing we need to do is run the build command to generate the image data:
 
 `docker-compose build`
 
