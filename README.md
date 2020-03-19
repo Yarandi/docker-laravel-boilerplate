@@ -14,7 +14,7 @@ OR if you have already installed composer on your local system
 
 Then pulling this repository codes in the same directory that installed laravel in previous ,
 
-Edit `docker-compose.yaml` and set your `database name`, database `user name` amd `passwords`
+Edit `docker-compose.yaml` and set your `MYSQL_DATABASE`, `MYSQL_USER`, `MYSQL_PASSWORD`, `MYSQL_ROOT_PASSWORD` environments.
 
 Then the thing we need to do is run the build command to generate the image data:
 
