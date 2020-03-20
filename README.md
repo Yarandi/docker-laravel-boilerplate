@@ -26,3 +26,6 @@ You can then proceed with actually starting up the containers using:
 
 In your browser, navigate to http://localhost:8080 where 8080 is the first port that you specified under the nginx service in your docker-compose.yml file.
 
+# Note : 
+If you have issue with database connection in laravel , change `DB_HOST=127.0.0.1` to `DB_HOST=mysql` actually its the name of service that we defined in `docker-compose.yaml`
+
