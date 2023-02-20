@@ -29,3 +29,11 @@ In your browser, navigate to http://localhost:8080 where 8080 is the first port 
 # Note : 
 If you have issue with database connection in laravel , change `DB_HOST=127.0.0.1` to `DB_HOST=mysql` actually its the name of service that we defined in `docker-compose.yaml`
 
+How connect to the mysql:  
+first run `docker ps -a` to see container Id's then use below command to execute the container 
+`docker exec -it CONTAINERID bash`
+
+Then you can run this command `mysql --user=USER --password`
+after then you need to enter the password of this user that you defined in docker-compose.yaml
+
+
